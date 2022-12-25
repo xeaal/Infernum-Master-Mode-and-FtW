@@ -1,1 +1,5 @@
-This mod removes Calamity Infernum Mode limitations that disable you to play it with Master Mode and For the Worthy secret seed enabled
+This mod removes Calamity Infernum Mode limitations that disable you to play it with Master Mode and For the Worthy secret seed enabled.
+
+It only doesn't let you play Infernum with Eternity in Classic worlds, if world has either Master Mode or For the Worthy this limitation does not apply any longer. This is a bad idea to try to play Infernum with Eternity since they both change bosses AI, don't do it.
+
+All of the source code is available here: https://github.com/xeaal/Infernum-Master-Mode-and-FtW
