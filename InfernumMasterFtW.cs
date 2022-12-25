@@ -16,10 +16,8 @@ namespace InfernumMasterFtW
 		private void IL_PostUpdateMiscEffects(ILContext il) {
 			var c = new ILCursor(il);
 			var label = il.DefineLabel();
-			if (!c.TryGotoNext(MoveType.Before, i => i.MatchLdfld(typeof(InfernumMode.PoDPlayer), "ShadowflameInferno")))
-				throw new Exception("SF edit failed");
-			if (!c.TryGotoPrev(i => i.MatchNop()))
-				throw new Exception("MatchNop edit failed");
+			if (!c.TryGotoNext(MoveType.Before, i => i.MatchCall(typeof(InfernumMode.InfernumMode), "get_EmodeIsActive")))
+				throw new Exception("EMode edit failed");
 			c.MarkLabel(label);
 			if (!c.TryGotoPrev(MoveType.After, i => i.MatchCall(typeof(Main), "get_masterMode")))
 				throw new Exception("MM edit failed");

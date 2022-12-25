@@ -1,5 +1,6 @@
 displayName = Infernum Master and For the Worthy Patch
 author = xeaal
-version = 0.1.1
+version = 1.0.0.1
+side = Client
 modReferences = InfernumMode
 sortAfter = InfernumMode
