@@ -4,3 +4,4 @@ version = 1.0.0.1
 side = Client
 modReferences = InfernumMode
 sortAfter = InfernumMode
+includeSource = true
